@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="animate__animated animate__bounce">ENCRYPTION</h1>
+        <div class="encryption">
+            <form id="encryption-form">
+                <label for="text">Enter Plaintext</label>
+                <input type="text" id="plaintext" name="text" required>
+                <label for="shift">Shift:</label>
+                <input type="number" id="shift" name="shift" required>
+                <button type="submit">Encrypt</button>
+                <div id="encrypted"></div>
+            </form>            
+        </div>        
+    </div>
+    <script src="./scripts/encrypt.js"></script>
+</body>
+</html>
